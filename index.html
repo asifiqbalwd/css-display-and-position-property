@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display and Position Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CSS Display Property Examples</h1>
+    <br><br>
+    <!-- Display: Block start -->
+    <h2>Display: Block</h2>
+    <span class="block-example">I am a block element.</span>
+    <span class="block-example">I take up the full width.</span>
+    <br>
+    <!-- Display: Block end -->
+
+    <!-- Display: Inline start -->
+    <div>
+        <h2>Display: Inline</h2><br>
+        <p class="inline-example">I am inline</p>
+        <p class="inline-example">So am I</p>
+    </div>
+    <br>
+    <!-- Display: Inline end -->
+
+    <!-- Display: Inline-Block start -->
+    <div>
+        <h2>Display: Inline-Block</h2>
+        <div class="inline-block-example">Box 1</div>
+        <div class="inline-block-example">Box 2</div>
+    </div>
+    <br>
+    <!-- Display: Inline-Block end -->
+    <br>
+
+    <hr size="5" width="90%" noshade>
+
+    <br><br>
+
+    <h1>CSS Position Property Examples</h1>
+    <br><br>
+
+    <!-- 1. position: static start -->
+
+    <h2>Position: Static</h2>
+    <div class="static-example">I am in the default position.</div>
+    <div class="static-example">I follow the normal flow.</div>
+    <br>
+
+    <!--position: static end -->
+
+
+    <!-- 2. position: realative start -->
+    <div>
+        <h2>Position: Relative</h2>
+        <div class="relative-container">
+            <div class="relative-box">I'm offset from my normal position.</div>
+        </div>
+    </div>
+    <br>
+
+    <!-- position: realative end -->
+
+
+    <!-- 3. position: absolute start -->
+    <div>
+        <h2>Position: Absolute</h2>
+        <div class="absolute-container">
+            <div class="absolute-box">I'm positioned relative to my container.</div>
+        </div>
+    </div>
+    <br>
+
+    <!-- position: absolute end -->
+
+
+
+    <!-- 4. position: fixed start -->
+    <div>
+        <h2>Position: Fixed</h2>
+        <p>Scroll this page to see the fixed box stay in place.</p><br>
+        <div class="fixed-box">I'm always fixed at the top-right corner!</div>
+    </div>
+    <br>
+
+    <!-- position: fixed end -->
+
+    <!-- 5. position: sticky start -->
+    <div>
+        <h2>Position: Sticky</h2>
+        <div class="sticky-container">
+            <p>Scroll down, and the sticky element will stick to the top!</p>
+            <div class="sticky-box">I'm sticky at the top!</div>
+            <p>Keep scrolling to see the effect.</p>
+        </div>
+    </div>
+
+    <!-- position: sticky end -->
+
+
+
+</body>
+
+</html>

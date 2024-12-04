@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+}
+
+h1 {
+  width: 50%;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  background-image: linear-gradient(to right, #0026ff, #4c67ff);
+  color: rgb(255, 255, 255);
+}
+
+h1:hover {
+  transform: scale(1.2);
+}
+
+/* Block example */
+.block-example {
+  display: block;
+  background-color: #4caf50;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* Inline example */
+.inline-example {
+  display: inline;
+  background-color: #2196f3;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Inline-block-example */
+
+.inline-block-example {
+  display: inline-block;
+  background-color: #ff9800;
+  color: white;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 5px;
+}
+
+/* position:static-example*/
+
+.static-example {
+  background-color: #f4a261;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* position: relative example */
+
+.relative-container {
+  position: relative;
+  background-color: #2a9d8f;
+  width: 200px;
+  height: 100px;
+  color: white;
+}
+.relative-box {
+  position: relative;
+  background-color: #264653;
+  top: 20px;
+  left: 30px;
+  padding: 10px;
+}
+
+/* position: absolute example */
+
+.absolute-container {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  background-color: #e9c46a;
+}
+.absolute-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #264653;
+  color: white;
+  padding: 10px;
+}
+
+/* position: fixed example */
+
+.fixed-box {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #e76f51;
+  color: white;
+  padding: 10px;
+  z-index: 10;
+}
+
+/* position: sticky example */
+
+.sticky-container {
+  height: 200px;
+  background-color: #2a9d8f;
+  padding: 10px;
+  margin-bottom: 1000px;
+}
+.sticky-box {
+  position: sticky;
+  top: 0; /* Sticks to the top when scrolled to this point */
+  background-color: #264653;
+  color: white;
+  padding: 20px;
+}
